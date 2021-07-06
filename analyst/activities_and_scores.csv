@@ -1,0 +1,55 @@
+lead_scoring_event_id,type,activity_name,code,name,score,is_recurrent,description,count_limit
+1,1,"Contact Details",corporate_email,"Corporate Email",5,0,NULL,1
+4,1,"Contact Details",public_email,"Public Email",0,0,NULL,1
+7,1,"Contact Details",valid_phone_number,"Valid Phone number",5,0,NULL,1
+10,1,"Contact Details",country_tier_a,"Country Tier A",5,0,NULL,1
+13,1,"Contact Details",fortune_500,"Fortune 500",100,0,NULL,1
+16,2,Actions,quote_request,"Quote Request",50,1,"{"subject": "iSpring SDK Request a Quote"}",-1
+19,2,Actions,discount_request,"Discount Request",50,0,"{"subject": "iSpring License Request"}",1
+22,2,Actions,contact_sales,"Contact Sales",20,0,NULL,1
+25,2,Actions,demo_request_learn,"Demo Request Learn",50,1,"{"subject": "iSpring Learn Demo Request"}",-1
+28,2,Actions,demo_request_suite,"Demo Request Suite",50,1,"{"subject": "iSpring Suite Demo Request"}",-1
+31,2,Actions,from_chat,"From Chat",10,0,NULL,1
+34,2,Actions,contact_support,"Contact Support",10,0,NULL,1
+37,2,Email,replay_on_email,"Replay On Email",5,1,NULL,3
+40,3,Actions,trial_learn,"Trial Learn",30,1,NULL,-1
+43,3,Actions,trial_suite,"Trial Suite",20,1,NULL,-1
+46,3,Actions,trial_ispring,"Trial iSpring",30,1,NULL,-1
+49,3,Actions,trial_paid_product,"Trial Paid product",10,1,NULL,-1
+52,3,Actions,trial_free_product,"Trial Free product",0,1,NULL,-1
+55,4,Actions,datasheet_download,"Datasheet Download",5,1,"{"group_name": "Guide: How To Choose The Right Authoring Tool|Guide: How To Choose The Right LMS|Guide: How To Create Great eLearning Content"}",1
+58,4,Actions,webinar_registration_attendance_recording,"Webinar registration attendance recording",6,1,"{"group_name": "Watch webinar"}",1
+61,5,Pages,pricing,Pricing,2,0,"{"page": "https://www.ispringsolutions.com/pricing.html|https://www.ispringsolutions.com/pricing"}",1
+64,5,Pages,sales_faq,"Sales FAQ",4,0,"{"page": "https://www.ispringsolutions.com/pricing/sales-faq.html|https://www.ispringsolutions.com/pricing/sales-faq"}",1
+67,5,Pages,search,Search,2,0,"{"page": "https://www.ispringsolutions.com/search.html|https://www.ispringsolutions.com/search"}",1
+70,5,Pages,support,Support,4,0,"{"page": "https://www.ispringsolutions.com/support|https://www.ispringsolutions.com/support.html"}",1
+73,5,Pages,company,Company,2,0,"{"page": "https://www.ispringsolutions.com/company.html|https://www.ispringsolutions.com/company"}",1
+76,5,Pages,supported_lms,"Supported LMS",4,0,"{"page": "https://www.ispringsolutions.com/supported-lms|https://www.ispringsolutions.com/supported-lms.html"}",1
+79,5,Pages,learn_pricing,"Learn Pricing",2,0,"{"page": "https://www.ispringsolutions.com/ispring-learn/pricing.html|https://www.ispringsolutions.com/ispring-learn/pricing"}",1
+82,5,Pages,learn_features,"Learn Features",2,0,"{"page": "https://www.ispringsolutions.com/ispring-learn/features|https://www.ispringsolutions.com/ispring-learn/features.html"}",1
+85,5,Pages,learn_requirements,"Learn Requirements",2,0,"{"page": "https://www.ispringsolutions.com/ispring-learn/system-requirements|https://www.ispringsolutions.com/ispring-learn/system-requirements.html"}",1
+88,5,Pages,suite_demos,"Suite Demos",2,0,"{"page": "https://www.ispringsolutions.com/ispring-suite/demos|https://www.ispringsolutions.com/ispring-suite/demos.html"}",1
+91,5,Pages,suite_features,"Suite Features",4,0,"{"page": "https://www.ispringsolutions.com/ispring-suite/features|https://www.ispringsolutions.com/ispring-suite/features.html"}",1
+94,5,Pages,ppt_to_scorm,"PPT To Scorm",4,0,"{"page": "https://www.ispringsolutions.com/ppt-to-scorm|https://www.ispringsolutions.com/ppt-to-scorm.html"}",1
+97,5,Pages,suite_pricing,"Suite Pricing",4,0,"{"page": "https://www.ispringsolutions.com/ispring-suite#pricing|https://www.ispringsolutions.com/ispring-suite.html"}",1
+100,5,Pages,suite_knowledge_base,"Suite Knowledge Base",2,0,"{"page": "https://www.ispringsolutions.com/ispring-suite/knowledge-base|https://www.ispringsolutions.com/ispring-suite/knowledge-base.html"}",1
+103,5,Pages,suite_requirements,"Suite Requirements",4,0,"{"page": "https://www.ispringsolutions.com/ispring-suite/system-requirements|https://www.ispringsolutions.com/ispring-suite/system-requirements.html"}",1
+106,6,Email,open_campaign,"Open Campaign",0.5,1,NULL,3
+109,6,Email,click_link_in_campaign,"Click Link In Campaign",1,1,NULL,3
+112,7,"Product Suite",install_product,"Install Product",30,0,"{"product": "issuite"}",1
+115,7,"Product Suite",use_product,"Use Product",20,0,"{"action": "AddToSlide", "product": "issuite"}",1
+118,7,"Product Suite",publish_product,"Publish Product",20,0,"{"action": "PublishComplete", "product": "issuite"}",1
+121,8,"Product Learn",log_in_learn,"Log in Learn",20,0,NULL,1
+124,8,"Product Learn",use_learn,"Use Learn",50,0,NULL,1
+126,1,"Contact Details",invalid_email,"Invalid email",-5,0,NULL,1
+129,1,"Contact Details",valid_email,"Valid email",3,0,NULL,1
+132,2,"Contact Details",incoming_call,"Incoming call",30,0,NULL,3
+135,5,Pages,ten_free_timelines,"Free Interactive Timelines",-2,0,"{"page": "https://www.ispringsolutions.com/blog/top-10-free-and-paid-interactive-timeline-makers"}",1
+138,5,Pages,timeline_maker,"Timeline Maker",-2,0,"{"page": "https://www.ispringsolutions.com/timeline-maker"}",1
+141,5,Pages,jeopardy_game,"Geopardy Game",-2,0,"{"page": "https://www.ispringsolutions.com/blog/how-to-make-a-jeopardy-game-in-powerpoint"}",1
+144,7,"Product Suite",update_request,"Update Request",10,0,"{"product": "issuite"}",1
+147,5,Pages,websession_repeat,"Websession Count > 2",1,0,NULL,10
+150,8,"Product Learn",more_than_one_logged_users,"Logged users > 1",10,0,NULL,1
+153,8,"Product Learn",return_to_learn_product,"Return To Product",10,0,NULL,1
+156,4,Actions,webinar_subscribers,"Webinar subscribers",6,0,"{"group_name": "Webinar subscribers"}",1
+159,4,Actions,webinar_registration,"Webinar Registration",6,1,"{"group_name": "All Global Webinar Registration"}",1
