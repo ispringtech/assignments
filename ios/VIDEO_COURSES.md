@@ -1,7 +1,7 @@
 ## Приложение для просмотра видео-уроков (MVP-0)
 [Макет](https://www.figma.com/file/RWcScxBtGa1R36Vh1L9vkf/Learning-by-Video-MVP0)
 
-[Список видео](https://github.com/ispringtech/coding-interview/blob/master/ios/assets/video_courses_mvp_0.json)
+[Список видео](https://github.com/ispringtech/coding-interview/raw/master/ios/assets/video_courses_mvp_0.json)
 
 ### Нефункциональные требования
 * Минимальная версия iOS - 11
